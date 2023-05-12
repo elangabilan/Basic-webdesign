@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anime Watch List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+      
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .anime-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      
+      .anime-item {
+        width: 300px;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      
+      .anime-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      
+      .anime-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .anime-iimg {
+        width: 100%;
+        height: 300px;
+        object-fit: fill;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      
+      .anime-details {
+        padding: 20px;
+      }
+      
+      .anime-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .anime-description {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      .anime-status {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 10px;
+      }
+      
+      .anime-rating {
+        font-size: 18px;
+        font-weight: bold;
+        color: #f44336;
+      }
+      
+      .anime-watch {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #f44336;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .anime-watch:hover {
+        background-color: #f83f3f;
+      }
+      .my-element {
+      padding-right: 20px;
+      }
+
+      #kabila{
+        display: flex;
+        justify-content: space-between;
+        padding: left 90%;
+      }
+      .column {
+            width: 50%;
+      }
+      .links {
+            color:dimgrey;
+      }
+      .links:hover {
+            color:whitesmoke;
+      }
+
+
+
+      .topnav {
+          overflow: hidden;
+          background-color: black;
+      }
+
+      .topnav a {
+      float: left;
+      text-decoration: none;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 17px;
+      }
+
+      .topnav a:hover {
+          background-color: white;
+          color: black;
+      }
+
+      .topnav a.active {
+           background-color:rgb(198, 120, 120);
+            color: black;
+      }
+
+      .parallax1 {
+         background-image:url("images/snackspot.jpg");
+         background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:100vh;
+      }
+
+      .go_to_menu:hover {
+           color:#000!important;
+          background-color:#ccc!important;
+
+    </style>
+  </head>
+  
+  <body>
+    <h1>Anime Watch List</h1>
+    <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#trending">Trending</a>
+  <a href="#movies">Movies</a>ab
+  <a href="#series">TV Series</a>
+</div>  
+<section class="kabila">
+<div class="anime-list">
+      <div class="anime-item">
+        <img class="anime-img" src="C:\Users\thali\Desktop\Downloads\aot.webp">
+        <div class="anime-details">
+          <div class="anime-title">Attack on Titan</div>
+          <div class="anime-description">Eren Yeager and his childhood friends Mikasa Ackerman and Armin Arlert join the Survey Corps, a military organization to fight against Titans, giant humanoid creatures who devour humans seemingly without reason.</div>
+          <div class="anime-status">Status: Ongoing</div>
+          <div class="anime-rating">Rating: 9.8</div>
+        </br>
+        <button class="anime-watch"><a style="text-decoration:none ; color:#fff;" href="https://www.crunchyroll.com/series/GR751KNZY/attack-on-titan" target="_blank">Watch Now</a></button>
+        </div>
+</div>
+
+<div class="anime-item">
+  <img class="anime-iimg" src="C:\Users\thali\Desktop\Downloads\op.jpg">
+  <div class="anime-details">
+    <div class="anime-title">One Piece</div>
+    <div class="anime-description">Wealth, fame, power. Gold Roger, the King of the Pirates, attained everything this world has to offer. 
+      And so, many men head for the Grand Line to find the great treasure he left behind, the One Piece. The world has truly entered a Great Pirate Era! 
+      Wearing the straw hat sworn upon him by the great pirate, 
+      Shanks Monkey D. Luffy heads out to the sea on a journey on the road to become King of the Pirates.</div>
+    <div class="anime-status">Status:Ongoing</div>
+    <div class="anime-rating">Rating:9.3 </div>
+  </br>
+  <button class="anime-watch"><a style="text-decoration:none ; color:#fff;" href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece" target="_blank">Watch Now</a></button>
+    
+  </div>
+</div>
+<div class="anime-item">
+    <img class="anime-img" src="C:\Users\thali\Desktop\Downloads\naruto.png">
+    <div class="anime-details">
+      <div class="anime-title">Naruto</div>
+      <div class="anime-description">The story of Naruto Uzumaki, who lives in the Hidden Leaf Village. He is shunned that he has the Nine-Tailed Fox spirit inside him, which once attacked the village.Naruto dreams of becoming the strongest ninja in the village, and the Hokage.He makes friends with Sasuke Uchiha and Sakura, as they train under their Kakashi Hatake. He fight against enemies such as Orochimaru, Akatsuki and later marries Hinata Hyuga</div>
+      <div class="anime-status">Status: Completed</div>
+      <div class="anime-rating">Rating: 9.2</div>
+    </br>
+      <button class="anime-watch"><a style="text-decoration:none ; color:#fff;" href="https://www.crunchyroll.com/your-lie-in-april" target="_blank">Watch Now</a></button>
+    </div>
+  </div>
+  
+  
+ 
+
+
+
+
+
+ <div class="anime-item">
+    <img class="anime-iimg" src="C:\Users\thali\Desktop\Downloads\ds.jpg">
+    <div class="anime-details">
+      <div class="anime-title">Demon Slayer</div>
+      <div class="anime-description">where the Demon Slayer Corps has been waging a secret war against demons. Demons are former humans turned into demons by Muzan Kibutsuji, and can only be killed by decapitation, poison, or exposure to sunlight. The strongest Demon Slayers are known as the Hashira, who gain this rank through either killing a member of the Twelve moon.</div>
+      <div class="anime-status">Status: Ongoing</div>
+      <div class="anime-rating">Rating: 9.4</div>
+    </br>
+    <button class="anime-watch"><a style="text-decoration:none ; color:#fff;" href="https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba" target="_blank">Watch Now</a></button>
+    </div>
+  </div>
+
+
+
+<div class="anime-item">
+    <img class="anime-img" src="C:\Users\thali\Desktop\Downloads\YOUR NAME.png">
+    <div class="anime-details">
+        <div class="anime-title">Your Name</div>
+        <div class="anime-description">Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.</div>
+        <div class="anime-status">Status:completed</div>
+        <div class="anime-rating">Rating:8.6 </div>
+    </br>
+    <button class="anime-watch"><a style="text-decoration:none ; color:#fff;" href="https://www.crunchyroll.com/series/G9VHN9PK3/your-name" target="_blank">Watch Now</a></button>
+    </div>
+</div>
+</section>
+<footer style="background-color:rgb(3, 3, 3); color:whitesmoke;">
+  <div class="column">
+    <ul type="none">
+      <li><h3>About us</h3></li>
+      <li><span class="links">New</span></li>
+      <li><span class="links">manga</span></li>
+      <li><span class="links">Terms and Services</span></li>
+    </ul>
+  </div>
+  <div style="text-align:center">&copy 2023 .All Rights Reserved.
+</div>
+
+</footer>
+  </body>
+</html>
+
